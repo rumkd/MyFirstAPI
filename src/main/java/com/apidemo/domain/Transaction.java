@@ -1,5 +1,9 @@
 package main.java.com.apidemo.domain;
 
+/**
+ * @author Urminder Deol
+ * Represents each transaction entity returned from the api
+ */
 public class Transaction {
     private String Date;
     private String Ledger;
@@ -27,5 +31,21 @@ public class Transaction {
 
     public String getCompany() {
         return Company;
+    }
+
+    public void setDate(String date) {
+        Date = date;
+    }
+
+    public void setLedger(String ledger) {
+        Ledger = ledger;
+    }
+
+    public void setAmount(String amount) {
+        Amount = amount;
+    }
+
+    public void setCompany(String company) {
+        Company = company;
     }
 }

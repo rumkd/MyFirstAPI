@@ -2,7 +2,13 @@ package main.java.com.apidemo.domain;
 
 import java.util.ArrayList;
 
+/**
+ * @author Urminder Deol
+ *
+ */
 public class BenchPage {
+
+    // would have liked to use this class to try to do paging
 
     private int totalCount;
     private int page;

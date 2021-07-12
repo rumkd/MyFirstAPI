@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * @author Urminder Deol
- *
+ * Calculates running daily balances and prints them to the console.
  */
 
 public class RestApiClient {

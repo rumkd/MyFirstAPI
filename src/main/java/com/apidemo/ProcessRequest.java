@@ -36,7 +36,8 @@ public class ProcessRequest {
         });
     }
 
-    public static Map<String, Double> getTxnMap() {
+    public static Map<String, Double> getTxnMap()
+    {
         return txnMap;
     }
 }
